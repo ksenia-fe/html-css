@@ -11,6 +11,8 @@
 @keyframes move{
   0%{
     left: 0;
+    right: 0;
+    background-color: #ff7f50;
   }
   25%{
     left: 300px;
