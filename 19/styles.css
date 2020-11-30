@@ -1,13 +1,13 @@
-div {
+.square {
   width: 100px;
   height: 100px;
   background-color: coral;
   position: absolute;
-  animation: bigBox 4s;
+  animation: move 4s;
   animation-direction: alternate;
   animation-iteration-count: 2;
 }
-@keyframes bigBox {
+@keyframes move {
   0% {
      left: 0;
      top: 0;
