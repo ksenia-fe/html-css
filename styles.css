@@ -25,22 +25,19 @@
   background-color: #000000;
   border-radius: 2px;
   animation-name: moving,blinking;
-  animation-duration: 4s, 2s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
 
 @keyframes moving {
-  0% {
+  from {
     left: 0;
     opacity: 1;
   }
-  50% {
+  to {
     left: 70px;
-  }
-  100%{
-    left: 0;
   }
 }
 
