@@ -22,7 +22,7 @@
   border-radius: 2px;
   background-color: #000000;
   position: relative;
-  animation: moving 2s infinite;
+  animation: moving 4s infinite;
 }
 
 @keyframes moving {
