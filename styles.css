@@ -8,6 +8,14 @@ html{
   font-size: 16px;
 }
 
+header{
+  text-align: center;
+  height: 11vh;
+  line-height: 11vh;
+  background-image: linear-gradient(60deg, #ff0000, #ffa500);
+  color: #fff;
+}
+
 body{
   display: flex;
   height: 100vh;
@@ -69,19 +77,12 @@ body{
   text-align: center;
 }
 
-header{
-  display: flex;
-  background-image: linear-gradient(60deg, #ff0000, #ffa500);
-  color: #fff;
-}
-
 h1{
   margin: auto;
 }
 
 .footer{
-  display: flex;
-  justify-content: center;
+  text-align: center;
   background-color: #e5e5e5;
   padding: 0.5em;
 }
