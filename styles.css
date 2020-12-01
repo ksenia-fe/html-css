@@ -2,7 +2,7 @@
   width: 100px;
   height: 100px;
   background-color: coral;
-  position: absolute;
+  position: relative;
   animation: move 4s;
   animation-direction: alternate;
   animation-iteration-count: 2;
