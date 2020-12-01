@@ -2,33 +2,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: blinking 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+}
+
+.spinner{
+  display: flex;
+  flex-direction: column;
 }
 
 .spinner-text{
   text-transform: uppercase;
   font-size: 16px;
   font-family: monospace;
-  /* animation: blinking 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; */
-}
-
-/* .animation{
   animation: blinking 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-} */
+}
 
 .rect {
+  position: relative;
   width: 10px;
   height: 4px;
-  border-radius: 2px;
   background-color: #000000;
-  position: relative;
-  animation: moving 4s infinite;
+  border-radius: 2px;
+  animation-name: moving,blinking;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
 @keyframes moving {
