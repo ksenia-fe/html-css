@@ -2,22 +2,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .spinner-text{
   text-transform: uppercase;
   font-size: 16px;
   font-family: monospace;
-  animation: blinking 2s;
+  /* animation: blinking 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
 }
 
-.animation{
+/* .animation{
   animation: blinking 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
+} */
 
 .rect {
   width: 10px;
