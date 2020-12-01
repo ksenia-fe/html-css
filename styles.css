@@ -1,30 +1,51 @@
-*{
-  box-sizing: border-box;
+.container{
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.block{
-  width: 250px;
-  height: 100px;
-  background-color: #ff7f50;
-  border-radius: 10px;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: #ffffff;
+.spinner{
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+}
+
+.spinner-text{
   text-transform: uppercase;
-  text-align: center;
-  line-height: 100px;
-  animation: jump 2s ease;
-  animation-fill-mode: forwards;
-  position: relative;
+  font-size: 16px;
+  font-family: monospace;
 }
 
-@keyframes jump {
-  from{
-    top: 100px;
+.rect {
+  width: 10px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #000000;
+  position: relative;
+  animation: moving 2s infinite;
+}
+
+@keyframes moving {
+  0% {
+    left: 0;
+    opacity: 1;
   }
-  to{
-    top: calc(50vh - 50px);
+  50% {
+    left: 70px;
+  }
+  100%{
+    left: 0;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
