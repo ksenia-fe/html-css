@@ -25,25 +25,30 @@ header{
   flex-grow: 1;
 }
 
-.navigation, .news{
+.main__two-first{
+  display: flex;
+  flex: 4;
+}
+
+.navigation{
   padding: 0.5em;
-  width: 20%;
+  flex: 1;
+}
+
+.news{
+  padding: 0.5em;
+  flex: 1;
 }
 
 .section{
   padding: 0.5em;
-  width: 60%;
+  flex: 3;
   font-size: 1.25em;
 }
 
 .section__header{
   font-size: 5vw;
   text-align: center;
-}
-
-.section__image{
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  max-width: 100%;
 }
 
 .units-list{
@@ -86,6 +91,13 @@ header{
   padding: 0.5em;
 }
 
+
+
+.section__image{
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
 @media screen and (max-width:599px){
   .main__two-first{
     display: flex;
@@ -103,7 +115,7 @@ header{
   }
 }
 
-@media screen and (max-width:899px){
+/* @media screen and (max-width:899px){
   .main{
     display: flex;
     flex-direction: column;
@@ -120,9 +132,9 @@ header{
   .news{
     width: 100%;
   }
-}
+} */
 
-@media screen and (min-width:900px){
+/* @media screen and (min-width:900px){
   .main{
     display: flex;
   }
@@ -139,4 +151,4 @@ header{
   .news{
     flex: 1;
   }
-}
+} */
