@@ -15,21 +15,21 @@ span{
   min-height: 200px;
   display: flex;
   background-color: #ff7f50;
-  flex: 1 1 auto;
+  flex: 1;
 }
 
 .produts-list{
   min-height: 200px;
   display: flex;
   background-color: #006400;
-  flex: 1 1 auto;
+  flex: 1;
 }
 
 .news{
   min-height: 200px;
   display: flex;
   background-color: #0ff;
-  flex: 1 1 auto;
+  flex: 1;
 }
 
 @media screen and (min-width: 600px){
@@ -41,9 +41,11 @@ span{
 @media screen and (min-width: 900px){
   .main{
     display: flex;
-    
   }
   .two-divs{
-    flex: 2 1 auto;
+    flex: 2;
+  }
+  .news{
+    flex: 1;
   }
 }
