@@ -13,7 +13,6 @@ span{
 
 .navigation{
   min-height: 200px;
-  max-width: 100%;
   display: flex;
   background-color: #ff7f50;
   flex-grow: 1;
@@ -21,7 +20,6 @@ span{
 
 .produts-list{
   min-height: 200px;
-  max-width: 100%;
   display: flex;
   background-color: #006400;
   flex-grow: 1;
@@ -29,7 +27,6 @@ span{
 
 .news{
   min-height: 200px;
-  max-width: 100%;
   display: flex;
   background-color: #0ff;
   flex-grow: 1;
