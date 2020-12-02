@@ -87,18 +87,19 @@ header{
 }
 
 @media screen and (max-width:599px){
-  .main{
+  .main__two-first{
     display: flex;
     flex-direction: column;
+  }
+ .section, .news{
+  width: 100%;
   }
   .navigation{
     width: 100%;
   }
-  .section{
-    width: 100%;
-  }
-  .news{
-    width: 100%;
+  .main{
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -122,14 +123,20 @@ header{
 }
 
 @media screen and (min-width:900px){
+  .main{
+    display: flex;
+  }
   .main__two-first{
     display: flex;
-    width: 80%;
+    flex: 4;
   }
- .section{
-    margin: auto;
+  .navigation{
+    flex: 1;
   }
-  /* .navigation{
-    width: 100%;
-  } */
+  .section{
+    flex: 3;
+  }
+  .news{
+    flex: 1;
+  }
 }
