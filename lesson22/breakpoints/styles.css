@@ -42,6 +42,7 @@ span{
 @media screen and (min-width: 900px){
   .main{
     display: flex;
+    
   }
   .two-divs{
     flex-grow: 1.5;
