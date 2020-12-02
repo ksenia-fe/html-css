@@ -19,6 +19,7 @@ header{
   border: none;
   padding: 0;
   align-items: center;
+  cursor: pointer;
 }
 
 .fa-bars{
@@ -27,7 +28,7 @@ header{
 }
 
 .navigation{
-  padding: 0.5em;
+  padding: 0.5em 0;
   width: 20%;
 }
 
