@@ -124,9 +124,6 @@ header{
 }
 
 @media screen and (min-width:900px){
-  .main{
-    display: flex;
-  }
   .main__two-first{
     display: flex;
     flex: 4;
@@ -138,6 +135,6 @@ header{
     flex: 3;
   }
   .news{
-    flex: 1;
+    width: 20%;
   }
 }
