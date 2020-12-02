@@ -126,7 +126,7 @@ header{
 @media screen and (min-width:900px){
   .main__two-first{
     display: flex;
-    flex: 4;
+    width: 80%;
   }
   .navigation{
     flex: 1;
