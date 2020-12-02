@@ -15,27 +15,27 @@ span{
   min-height: 200px;
   display: flex;
   background-color: #ff7f50;
-  flex-grow: 1;
+  flex: auto;
 }
 
 .produts-list{
   min-height: 200px;
   display: flex;
   background-color: #006400;
-  flex-grow: 1;
+  flex: auto;
 }
 
 .news{
   min-height: 200px;
   display: flex;
   background-color: #0ff;
-  flex-grow: 1;
+  flex: auto;
 }
 
 @media screen and (min-width: 600px){
   .two-divs{
     display: flex;
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
 }
 
