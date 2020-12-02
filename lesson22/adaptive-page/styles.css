@@ -104,7 +104,7 @@ header{
   }
 }
 
-/* @media screen and (max-width:899px){
+@media screen and (min-width:600px) and (max-width:899px){
   .main{
     display: flex;
     flex-direction: column;
@@ -121,9 +121,9 @@ header{
   .news{
     width: 100%;
   }
-} */
+}
 
-/* @media screen and (min-width:900px){
+@media screen and (min-width:900px){
   .main{
     display: flex;
   }
@@ -140,4 +140,4 @@ header{
   .news{
     flex: 1;
   }
-} */
+}
