@@ -13,30 +13,31 @@ span{
 
 .navigation{
   min-height: 200px;
+  max-width: 100%;
   display: flex;
   background-color: #ff7f50;
+  flex-grow: 1;
 }
 
 .produts-list{
   min-height: 200px;
+  max-width: 100%;
   display: flex;
   background-color: #006400;
+  flex-grow: 1;
 }
 
 .news{
   min-height: 200px;
+  max-width: 100%;
   display: flex;
   background-color: #0ff;
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 600px){
-  .two-first{
+  .two-divs{
     display: flex;
-  }
-  .navigation{
-    flex-grow: 1;
-  }
-  .produts-list{
     flex-grow: 1;
   }
 }
@@ -45,7 +46,7 @@ span{
   .main{
     display: flex;
   }
-  div{
-    flex-grow: 1;
+  .two-divs{
+    flex-grow: 1.5;
   }
 }
