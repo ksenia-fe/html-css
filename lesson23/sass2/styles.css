@@ -8,13 +8,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 @media (orientation: landscape) {
-  body body {
+  .container {
+    display: flex;
     flex-direction: row;
   }
 }
 @media (orientation: portrait) {
-  body body {
+  .container {
+    display: flex;
     flex-direction: column;
   }
 }
